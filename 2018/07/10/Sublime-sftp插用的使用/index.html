@@ -9,7 +9,7 @@
   <title>Sublime sftp插件的使用 | 鹏鹏的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="前言sublime的sftp插件是我平时开发时使用率最高的几个插件之一，安装成功并且配置完成后，你可以直接在本地修改完代码，然后control+s保存，神奇的事情发生了，你的代码立刻同步到了你自己的测试服务器上。省下了你每次修改都要提交代码到测试服务器，然后等待自动化部署的时间，那得浪费我多少青春年华啊😂，直接在服务器上调试，开发效率大大提高了，废话不多说了下面我来介绍一下如何安装、配置、使用它">
-<meta name="keywords" content="sublime,sftp">
+<meta name="keywords" content="sftp,sublime">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Sublime sftp插件的使用">
 <meta property="og:url" content="http://blog.chenpengme.com/chenpeng.me/2018/07/10/Sublime-sftp插用的使用/index.html">
@@ -20,7 +20,8 @@
 <meta property="og:image" content="http://pbnsa68r0.bkt.clouddn.com/sftp2.png">
 <meta property="og:image" content="http://pbnsa68r0.bkt.clouddn.com/sftp3.png">
 <meta property="og:image" content="http://pbnsa68r0.bkt.clouddn.com/sftp4.png">
-<meta property="og:updated_time" content="2018-07-10T17:50:54.808Z">
+<meta property="og:image" content="http://pbnsa68r0.bkt.clouddn.com/qutu.png">
+<meta property="og:updated_time" content="2018-07-13T17:34:47.702Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sublime sftp插件的使用">
 <meta name="twitter:description" content="前言sublime的sftp插件是我平时开发时使用率最高的几个插件之一，安装成功并且配置完成后，你可以直接在本地修改完代码，然后control+s保存，神奇的事情发生了，你的代码立刻同步到了你自己的测试服务器上。省下了你每次修改都要提交代码到测试服务器，然后等待自动化部署的时间，那得浪费我多少青春年华啊😂，直接在服务器上调试，开发效率大大提高了，废话不多说了下面我来介绍一下如何安装、配置、使用它">
@@ -63,7 +64,7 @@ var _hmt = _hmt || [];
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="/img/avatar.jpg" class="js-avatar">
+			<img src="/img/avatar.jpg" class="js-avatar" style='margin-top:-8px'>
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">鹏鹏</a></h1>
@@ -91,8 +92,6 @@ var _hmt = _hmt || [];
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="https://github.com/cpnewobject" title="github"><i class="icon-github"></i></a>
-		        
 					<a class="weibo" target="_blank" href="https://weibo.com/u/2253115620" title="weibo"><i class="icon-weibo"></i></a>
 		        
 					<a class="mail" target="_blank" href="mailto:15605160503@163.com" title="mail"><i class="icon-mail"></i></a>
@@ -132,8 +131,6 @@ var _hmt = _hmt || [];
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="https://github.com/cpnewobject" title="github"><i class="icon-github"></i></a>
-			        
 						<a class="weibo" target="_blank" href="https://weibo.com/u/2253115620" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="mail" target="_blank" href="mailto:15605160503@163.com" title="mail"><i class="icon-mail"></i></a>
@@ -199,8 +196,10 @@ var _hmt = _hmt || [];
 <li>vi sshd_config</li>
 <li>找到 Subsystem sftp /usr/lib/openssh/sftp-server 这行代码，把/usr/lib/openssh/sftp-server 替换为 internal-sftp</li>
 <li>重启sshd service sshd restart</li>
+<li>打开网易云音乐 听首曲子 放松下吧</li>
 </ol>
-<p>最后的最后Mac真特么好用！！！</p>
+<p><img src="http://pbnsa68r0.bkt.clouddn.com/qutu.png" alt=""></p>
+<font size="2" face="黑体" color="#999">这里有一只超级厚脸皮的猫鼬，这货为了看风景，竟然把一名女游客的脑袋当瞭望台。端坐在人家头上瞭望远处的风景。</font>
 
       
 
@@ -214,11 +213,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">sublime</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">sftp</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">sftp</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">sublime</a>
         		</li>
       		
 		</ul>
@@ -409,19 +408,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">sublime</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">sublime sftp</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">sftp</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">-sftp -sublime</a>
+                <a href="javascript:void(0)" class="js-tag color3">sublime</a>
               </li>
             
             <div class="clearfix"></div>
